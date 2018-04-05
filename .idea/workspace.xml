@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fd90f35-1cd6-4cc7-b994-d5898c021f65" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/Hangman/App.class" afterPath="$PROJECT_DIR$/out/production/Hangman/App.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Player.class" afterPath="$PROJECT_DIR$/out/production/Hangman/Player.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hangman/Word.class" afterPath="$PROJECT_DIR$/out/production/Hangman/Word.class" />
       <change beforePath="$PROJECT_DIR$/src/App.java" afterPath="$PROJECT_DIR$/src/App.java" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" afterPath="$PROJECT_DIR$/src/Player.java" />
       <change beforePath="$PROJECT_DIR$/zapis.bin" afterPath="$PROJECT_DIR$/zapis.bin" />
@@ -22,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="159">
-              <caret line="107" column="0" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+              <caret line="107" column="4" lean-forward="false" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,9 +87,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Appl.java" />
-        <option value="$PROJECT_DIR$/src/App.java" />
         <option value="$PROJECT_DIR$/src/Player.java" />
         <option value="$PROJECT_DIR$/src/Word.java" />
+        <option value="$PROJECT_DIR$/src/App.java" />
       </list>
     </option>
   </component>
@@ -495,7 +498,7 @@
     <entry file="file://$PROJECT_DIR$/src/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
-          <caret line="107" column="0" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <caret line="107" column="4" lean-forward="false" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
