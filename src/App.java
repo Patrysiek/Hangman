@@ -41,7 +41,7 @@ public class App{
         switch (znak){
             case '1':
                 System.out.println("Podaj nazwe gracza");
-                nazwa = new Scanner(System.in).toString();
+                nazwa = new Scanner(System.in).next();
                 gracz1 = new Player(nazwa);
                 gra(gracz1);
                 break;
@@ -78,6 +78,7 @@ public class App{
 
     private static void gra(Player gracz1) throws FileNotFoundException {
         while (gracz1.getSzanse()>0){
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             char znak;
             Word slowo = new Word(wczytaj_slowo());
             System.out.println(slowo.getWczytane_slowo());
@@ -87,12 +88,12 @@ public class App{
 
                 try {
 
-                    znak = (char)System.in.read();
+                    znak = (char)br.read();;
                     if(znak == '1'){
                         oos.writeObject(gracz1);
                     }
                     else{
-                        System.in.skip(1);
+
                         znak = Character.toUpperCase(znak);
 
 
@@ -106,7 +107,7 @@ public class App{
 
 
 
-
+                   // System.in.skip(1);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

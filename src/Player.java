@@ -10,7 +10,7 @@ public class Player implements Serializable{
     private int koniec = 7;
     private int odgadniete_slowa = 0;
 
-    private int szanse = 6;
+    private int szanse = 1;
 
     public Player(String name){
         this.name = name;
